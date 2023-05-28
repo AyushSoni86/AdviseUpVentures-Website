@@ -2,10 +2,15 @@ h1,
 h2,
 h3,
 h4 {
+  
   letter-spacing: 0.1rem;
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+}
+
+article h4{
+  font-size: 64px;
 }
 
 .section {
@@ -79,7 +84,8 @@ article h4 {
 .title {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
-  color: hsl(209, 34%, 30%);
+  /* color: hsl(126, 35%, 30%); */
+  color: rgb(85, 255, 198);
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -105,12 +111,12 @@ article h4 {
 .prev,
 .next {
   position: absolute;
-  top: 200px;
+  top: 90px;
   transform: translateY(-50%);
-  background: hsl(210, 22%, 49%);
+  background: hsl(143, 51%, 67%);
   color: #fff;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
   display: grid;
   place-items: center;
   border-color: transparent;

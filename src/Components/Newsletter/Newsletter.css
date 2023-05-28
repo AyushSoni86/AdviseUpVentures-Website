@@ -1,0 +1,68 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .newsletter h3,
+  .social-links h3,
+  .copyright p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background-color: #61b371;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #555555;
+  }
+  
+  .social-links a:hover {
+    color: #61b371;
+  }
+  
+  .social-links i {
+    font-size: 20px;
+  }
+  
+  .copyright {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777777;
+  }
+  

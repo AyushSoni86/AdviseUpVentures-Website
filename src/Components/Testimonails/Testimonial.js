@@ -46,19 +46,19 @@ const Testimonial = () => {
 
           return (
             <article className={position} key={id}>
-              <img src={image} alt={name} className="person-img" />
+              <img src="images/person1.jpeg" alt={name} className="person-img" />
               <h4>{name}</h4>
-              <p className="title">{title}</p>
+              {/* <p className="title">{title}</p> */}
               <p className="text">{quote}</p>
             </article>
           );
         })}
 
         <button className="prev" onClick={() => setIndex(index - 1)}>
-          <i className="fas fa-arrow-right" />
+          <i className="fas fa-arrow-left" />
         </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
-          <i className="fas fa-arrow-left" />
+          <i className="fas fa-arrow-right" />
         </button>
       </div>
     </section>
